@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-fusion',
+  name = 'fusion',
   header_only = True,
   header_namespace = 'boost/fusion',
   exported_headers = subdir_glob([
